@@ -87,35 +87,35 @@ window.onload = function() {
 }
 //xử lí phần hình ảnh
 const image6 = [
-    "../images/20_11_2024_1.jpg","../images/20_11_2024_2.jpg","../images/20_11_2024_3.jpg",
-    "../images/20_11_2024_4.jpg","../images/20_11_2024_5.jpg","../images/20_11_2024_6.jpg"
+    "./images/20_11_2024_1.jpg","./images/20_11_2024_2.jpg","./images/20_11_2024_3.jpg",
+    "./images/20_11_2024_4.jpg","./images/20_11_2024_5.jpg","./images/20_11_2024_6.jpg"
 ];
 const image5 = [
-    "../images/20_11_2024_01.jpg","../images/20_11_2024_02.jpg","../images/20_11_2024_03.jpg",
-    "../images/20_11_2024_04.jpg","../images/20_11_2024_05.jpg","../images/20_11_2024_06.jpg",
-    "../images/20_11_2024_07.jpg","../images/20_11_2024_08.jpg","../images/20_11_2024_09.jpg"
+    "./images/20_11_2024_01.jpg","./images/20_11_2024_02.jpg","./images/20_11_2024_03.jpg",
+    "./images/20_11_2024_04.jpg","./images/20_11_2024_05.jpg","./images/20_11_2024_06.jpg",
+    "./images/20_11_2024_07.jpg","./images/20_11_2024_08.jpg","./images/20_11_2024_09.jpg"
 ];
 const image4 = [
-    "../images/19_11_2024_1.jpg","../images/19_11_2024_2.jpg","../images/19_11_2024_3.jpg",
-    "../images/19_11_2024_4.jpg","../images/19_11_2024_5.jpg","../images/19_11_2024_6.jpg",
-    "../images/19_11_2024_7.jpg","../images/19_11_2024_8.jpg",
+    "./images/19_11_2024_1.jpg","./images/19_11_2024_2.jpg","./images/19_11_2024_3.jpg",
+    "./images/19_11_2024_4.jpg","./images/19_11_2024_5.jpg","./images/19_11_2024_6.jpg",
+    "./images/19_11_2024_7.jpg","./images/19_11_2024_8.jpg",
 ];
 const image3 = [
-    "../images/31_10_2024_1.jpg","../images/31_10_2024_2.jpg","../images/31_10_2024_3.jpg",
-    "../images/31_10_2024_4.jpg","../images/31_10_2024_5.jpg","../images/31_10_2024_6.jpg",
-    "../images/31_10_2024_7.jpg",
+    "./images/31_10_2024_1.jpg","./images/31_10_2024_2.jpg","./images/31_10_2024_3.jpg",
+    "./images/31_10_2024_4.jpg","./images/31_10_2024_5.jpg","./images/31_10_2024_6.jpg",
+    "./images/31_10_2024_7.jpg",
 ];
 const image2 = [
-    "../images/20_4_2024_1.jpg","../images/20_4_2024_2.jpg","../images/20_4_2024_3.jpg",
-    "../images/20_4_2024_4.jpg","../images/20_4_2024_5.jpg","../images/20_4_2024_6.jpg",
-    "../images/20_4_2024_7.jpg","../images/20_4_2024_8.jpg",
+    "./images/20_4_2024_1.jpg","./images/20_4_2024_2.jpg","./images/20_4_2024_3.jpg",
+    "./images/20_4_2024_4.jpg","./images/20_4_2024_5.jpg","./images/20_4_2024_6.jpg",
+    "./images/20_4_2024_7.jpg","./images/20_4_2024_8.jpg",
 ];
 const image1 = [
-    "../images/6_3_2024_1.jpg","../images/6_3_2024_2.jpg","../images/6_3_2024_3.jpg",
-    "../images/6_3_2024_4.jpg","../images/6_3_2024_5.jpg",
+    "./images/6_3_2024_1.jpg","./images/6_3_2024_2.jpg","./images/6_3_2024_3.jpg",
+    "./images/6_3_2024_4.jpg","./images/6_3_2024_5.jpg",
 ];
 const image0 = [
-    "../images/19_11_2023.jpg"
+    "./images/19_11_2023.jpg"
 ];
 
 const images = [image0, image1, image2, image3, image4, image5, image6];
