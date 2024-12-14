@@ -147,7 +147,44 @@ function changeImage(indx, direction) {
             displayImage.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
             displayImage.style.transform = "translateX(0)"; // Trở về vị trí ban đầu
             displayImage.style.opacity = 1; // Mở lại độ mờ
-        }, 25);
+        }, 50);
     }, 100);
     
 }
+document.addEventListener("DOMContentLoaded", () => {
+    const lazyVideos = document.querySelectorAll(".lazy-video");
+
+    // Tạo một Observer
+    const videoObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const video = entry.target;
+                const sources = video.querySelectorAll("source");
+
+                // Gán src từ data-src khi video nằm trong viewport
+                sources.forEach(source => {
+                    if (source.dataset.src) {
+                        source.src = source.dataset.src;
+                    }
+                });
+
+                // Tải video
+                video.load();
+
+                // Hiệu ứng rõ dần sau khi video tải
+                video.onloadeddata = () => {
+                    video.classList.add("loaded");
+                };
+
+                // Ngừng quan sát video này
+                observer.unobserve(video);
+            }
+        });
+    });
+
+    // Quan sát từng video
+    lazyVideos.forEach(video => {
+        videoObserver.observe(video);
+    });
+});
+

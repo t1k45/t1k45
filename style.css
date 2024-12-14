@@ -850,3 +850,13 @@ aside #l-logo{
 .insights video{
     border-radius: 5%;
 }
+.lazy-video {
+    filter: blur(20px); /* Bắt đầu với hiệu ứng mờ */
+    opacity: 0;         /* Ẩn video ban đầu */
+    transition: filter 1.5s ease, opacity 1.5s ease; /* Hiệu ứng mượt */
+}
+
+.lazy-video.loaded {
+    filter: blur(0);    /* Bỏ mờ */
+    opacity: 1;         /* Hiện video rõ ràng */
+}
