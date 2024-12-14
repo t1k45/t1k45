@@ -147,7 +147,7 @@ function changeImage(indx, direction) {
             displayImage.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
             displayImage.style.transform = "translateX(0)"; // Trở về vị trí ban đầu
             displayImage.style.opacity = 1; // Mở lại độ mờ
-        }, 50);
-    }, 250);
+        }, 25);
+    }, 100);
     
 }
